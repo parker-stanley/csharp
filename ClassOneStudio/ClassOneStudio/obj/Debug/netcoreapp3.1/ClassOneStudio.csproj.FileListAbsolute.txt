@@ -1,0 +1,12 @@
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneStudio/ClassOneStudio/bin/Debug/netcoreapp3.1/ClassOneStudio.deps.json
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneStudio/ClassOneStudio/bin/Debug/netcoreapp3.1/ClassOneStudio.runtimeconfig.json
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneStudio/ClassOneStudio/bin/Debug/netcoreapp3.1/ClassOneStudio.runtimeconfig.dev.json
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneStudio/ClassOneStudio/bin/Debug/netcoreapp3.1/ClassOneStudio.dll
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneStudio/ClassOneStudio/bin/Debug/netcoreapp3.1/ClassOneStudio.pdb
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneStudio/ClassOneStudio/obj/Debug/netcoreapp3.1/ClassOneStudio.csprojAssemblyReference.cache
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneStudio/ClassOneStudio/obj/Debug/netcoreapp3.1/ClassOneStudio.AssemblyInfoInputs.cache
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneStudio/ClassOneStudio/obj/Debug/netcoreapp3.1/ClassOneStudio.AssemblyInfo.cs
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneStudio/ClassOneStudio/obj/Debug/netcoreapp3.1/ClassOneStudio.csproj.CoreCompileInputs.cache
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneStudio/ClassOneStudio/obj/Debug/netcoreapp3.1/ClassOneStudio.dll
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneStudio/ClassOneStudio/obj/Debug/netcoreapp3.1/ClassOneStudio.pdb
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneStudio/ClassOneStudio/obj/Debug/netcoreapp3.1/ClassOneStudio.genruntimeconfig.cache

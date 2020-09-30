@@ -1,0 +1,12 @@
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneExercises/MilesPerGallon/bin/Debug/netcoreapp3.1/MilesPerGallon.deps.json
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneExercises/MilesPerGallon/bin/Debug/netcoreapp3.1/MilesPerGallon.runtimeconfig.json
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneExercises/MilesPerGallon/bin/Debug/netcoreapp3.1/MilesPerGallon.runtimeconfig.dev.json
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneExercises/MilesPerGallon/bin/Debug/netcoreapp3.1/MilesPerGallon.dll
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneExercises/MilesPerGallon/bin/Debug/netcoreapp3.1/MilesPerGallon.pdb
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneExercises/MilesPerGallon/obj/Debug/netcoreapp3.1/MilesPerGallon.csprojAssemblyReference.cache
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneExercises/MilesPerGallon/obj/Debug/netcoreapp3.1/MilesPerGallon.AssemblyInfoInputs.cache
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneExercises/MilesPerGallon/obj/Debug/netcoreapp3.1/MilesPerGallon.AssemblyInfo.cs
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneExercises/MilesPerGallon/obj/Debug/netcoreapp3.1/MilesPerGallon.csproj.CoreCompileInputs.cache
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneExercises/MilesPerGallon/obj/Debug/netcoreapp3.1/MilesPerGallon.dll
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneExercises/MilesPerGallon/obj/Debug/netcoreapp3.1/MilesPerGallon.pdb
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneExercises/MilesPerGallon/obj/Debug/netcoreapp3.1/MilesPerGallon.genruntimeconfig.cache

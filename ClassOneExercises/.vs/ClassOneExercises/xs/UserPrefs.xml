@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{AD1B2ADA-303C-4CD3-BCCD-70A08F73D0F3}|Default">
+  <MonoDevelop.Ide.ItemProperties.ClassOneExercises PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.HelloWorld FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AliceInWonderland/WordIndex.cs">
+    <Files>
+      <File FileName="AliceInWonderland/Program.cs" Line="1" Column="1" />
+      <File FileName="AliceInWonderland/SentenceModifier.cs" Line="1" Column="1" />
+      <File FileName="AliceInWonderland/WordFinder.cs" Line="1" Column="1" />
+      <File FileName="AliceInWonderland/WordIndex.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ClassOneExercises" expanded="True">
+            <Node name="AliceInWonderland" expanded="True">
+              <Node name="WordIndex.cs" selected="True" />
+            </Node>
+            <Node name="HelloWorld" expanded="True" />
+            <Node name="MilesPerGallon" expanded="True" />
+            <Node name="NumericTypes" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.AliceInWonderland PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

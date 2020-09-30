@@ -1,0 +1,12 @@
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneExercises/NumericTypes/bin/Debug/netcoreapp3.1/NumericTypes.deps.json
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneExercises/NumericTypes/bin/Debug/netcoreapp3.1/NumericTypes.runtimeconfig.json
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneExercises/NumericTypes/bin/Debug/netcoreapp3.1/NumericTypes.runtimeconfig.dev.json
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneExercises/NumericTypes/bin/Debug/netcoreapp3.1/NumericTypes.dll
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneExercises/NumericTypes/bin/Debug/netcoreapp3.1/NumericTypes.pdb
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneExercises/NumericTypes/obj/Debug/netcoreapp3.1/NumericTypes.csprojAssemblyReference.cache
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneExercises/NumericTypes/obj/Debug/netcoreapp3.1/NumericTypes.AssemblyInfoInputs.cache
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneExercises/NumericTypes/obj/Debug/netcoreapp3.1/NumericTypes.AssemblyInfo.cs
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneExercises/NumericTypes/obj/Debug/netcoreapp3.1/NumericTypes.csproj.CoreCompileInputs.cache
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneExercises/NumericTypes/obj/Debug/netcoreapp3.1/NumericTypes.dll
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneExercises/NumericTypes/obj/Debug/netcoreapp3.1/NumericTypes.pdb
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneExercises/NumericTypes/obj/Debug/netcoreapp3.1/NumericTypes.genruntimeconfig.cache

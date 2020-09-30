@@ -1,0 +1,12 @@
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneExercises/ClassOneExercises/bin/Debug/netcoreapp3.1/ClassOneExercises.deps.json
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneExercises/ClassOneExercises/bin/Debug/netcoreapp3.1/ClassOneExercises.runtimeconfig.json
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneExercises/ClassOneExercises/bin/Debug/netcoreapp3.1/ClassOneExercises.runtimeconfig.dev.json
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneExercises/ClassOneExercises/bin/Debug/netcoreapp3.1/ClassOneExercises.dll
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneExercises/ClassOneExercises/bin/Debug/netcoreapp3.1/ClassOneExercises.pdb
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneExercises/ClassOneExercises/obj/Debug/netcoreapp3.1/ClassOneExercises.csprojAssemblyReference.cache
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneExercises/ClassOneExercises/obj/Debug/netcoreapp3.1/ClassOneExercises.AssemblyInfoInputs.cache
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneExercises/ClassOneExercises/obj/Debug/netcoreapp3.1/ClassOneExercises.AssemblyInfo.cs
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneExercises/ClassOneExercises/obj/Debug/netcoreapp3.1/ClassOneExercises.csproj.CoreCompileInputs.cache
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneExercises/ClassOneExercises/obj/Debug/netcoreapp3.1/ClassOneExercises.dll
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneExercises/ClassOneExercises/obj/Debug/netcoreapp3.1/ClassOneExercises.pdb
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneExercises/ClassOneExercises/obj/Debug/netcoreapp3.1/ClassOneExercises.genruntimeconfig.cache

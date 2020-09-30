@@ -1,0 +1,12 @@
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneExercises/AliceInWonderland/bin/Debug/netcoreapp3.1/AliceInWonderland.deps.json
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneExercises/AliceInWonderland/bin/Debug/netcoreapp3.1/AliceInWonderland.runtimeconfig.json
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneExercises/AliceInWonderland/bin/Debug/netcoreapp3.1/AliceInWonderland.runtimeconfig.dev.json
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneExercises/AliceInWonderland/bin/Debug/netcoreapp3.1/AliceInWonderland.dll
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneExercises/AliceInWonderland/bin/Debug/netcoreapp3.1/AliceInWonderland.pdb
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneExercises/AliceInWonderland/obj/Debug/netcoreapp3.1/AliceInWonderland.csprojAssemblyReference.cache
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneExercises/AliceInWonderland/obj/Debug/netcoreapp3.1/AliceInWonderland.AssemblyInfoInputs.cache
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneExercises/AliceInWonderland/obj/Debug/netcoreapp3.1/AliceInWonderland.AssemblyInfo.cs
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneExercises/AliceInWonderland/obj/Debug/netcoreapp3.1/AliceInWonderland.csproj.CoreCompileInputs.cache
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneExercises/AliceInWonderland/obj/Debug/netcoreapp3.1/AliceInWonderland.dll
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneExercises/AliceInWonderland/obj/Debug/netcoreapp3.1/AliceInWonderland.pdb
+/Users/parker.stanley/Desktop/LC101/csharp/ClassOneExercises/AliceInWonderland/obj/Debug/netcoreapp3.1/AliceInWonderland.genruntimeconfig.cache
