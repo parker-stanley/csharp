@@ -10,15 +10,18 @@ namespace ClassThreeStudio
         private object menuItem;
 
         //constructor uses "this" because fields were declared using long hand
-        private getMenuItem (string menuCategory, List<string> menuItems)
+        private Menu (string menuCategory, object menuItems)
         {
             this.menuCategory = menuCategory;
             this.menuItem = menuItems;
         }
 
         //getters and setters required for long hand
-        public string MenuCategory { get; }
-        public object menuItem { get;  }
+        public string MenuCategory { get; set; }
+        public object MenuItem { get; set; }
+
+
+
 
     }
 }
