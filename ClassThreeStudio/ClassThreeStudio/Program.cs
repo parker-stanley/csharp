@@ -72,6 +72,7 @@ namespace ClassThreeStudio
 
                     //is there a better way to do this? I didn't actually name the instance of the class so can't access it
                     //perhaps to create a new menuItem instance right away and use the setter
+                    //another method may be to use a dictionary for "menuItems in the menu class"
 
                 } if (input == 3)
                 {
