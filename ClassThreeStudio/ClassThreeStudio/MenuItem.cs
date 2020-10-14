@@ -15,17 +15,17 @@ namespace ClassThreeStudio
         public string Description { get; }
         public double Price { get; set; }
         public string Category { get; }
-        public bool IsNew { get; }
+        public bool newItem { get; }
         public string DateUpdated { get; } //this could be refactored to actually get today's date
 
         //constructor for menu item
-        public MenuItem(string name, string description, double price, string category, bool isNew, string dateUpdated)
+        public MenuItem(string name, string description, double price, string category, bool newItem, string dateUpdated)
         {
             Name = name;
             Description = description;
             Price = price;
             Category = category;
-            IsNew = isNew;
+            newItem = newItem;
             DateUpdated = dateUpdated;
         }
 
