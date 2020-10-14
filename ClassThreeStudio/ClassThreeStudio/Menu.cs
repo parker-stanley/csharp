@@ -5,23 +5,19 @@ namespace ClassThreeStudio
 {
     public class Menu
     {
-        //fields initialized using the long hand
-        private string menuCategory;
-        private object menuItem;
+        public List<MenuItem> MenuItems { get; set; } = new List<MenuItem>();
 
-        //constructor uses "this" because fields were declared using long hand
-        private Menu (string menuCategory, object menuItems)
+        // could add validation to this that checks if "food" is on the menu
+        public void UpdateMenu (int option, MenuItem food)
         {
-            this.menuCategory = menuCategory;
-            this.menuItem = menuItems;
+            if (option == 0)
+            {
+                MenuItems.Add(food);
+            } else
+            {
+                MenuItems.Remove(food);
+            }
         }
-
-        //getters and setters required for long hand
-        public string MenuCategory { get; set; }
-        public object MenuItem { get; set; }
-
-
-
 
     }
 }
