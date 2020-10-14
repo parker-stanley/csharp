@@ -26,6 +26,7 @@ namespace ClassThreeStudio
         //should this be static?
         private string IsNew()
         {
+            //I want to compare the dateTime added to todays date and display the below text if it's been less than a week
             return ("New item!");
         }
 

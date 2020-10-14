@@ -68,8 +68,10 @@ namespace ClassThreeStudio
                     //could provide the options and have the user select
                     string categoryInput = Console.ReadLine();
 
+                    menu.UpdateMenu(0, (new MenuItem(nameInput, descriptionInput, priceInput, categoryInput)));
 
-                    //another option would be to create a new menuItem instance right away and use the setter
+                    //is there a better way to do this? I didn't actually name the instance of the class so can't access it
+                    //perhaps to create a new menuItem instance right away and use the setter
 
                 } if (input == 3)
                 {
