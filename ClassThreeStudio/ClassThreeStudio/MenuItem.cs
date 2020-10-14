@@ -37,7 +37,7 @@ namespace ClassThreeStudio
 
         public override string ToString()
         {
-            return ($"{Name} - ${Price}\n {Description}\n {Category}\n {NewItem}\n {DateUpdated}");
+            return ($"{Name} - ${Price}\n{Description}\n{Category}\n{NewItem}\n{DateUpdated}");
         }
 
     }

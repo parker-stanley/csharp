@@ -8,6 +8,7 @@ namespace ClassThreeStudio
 
         static void Main(string[] args)
         {
+            //established pre-existing menu 
             MenuItem bruschetta = new MenuItem("Bruschetta", "Crispy baguette piece topped with tomato, balsamic, and basil", 5.00, "Appetizer");
             MenuItem friedChicken = new MenuItem("Fried Chicken", "Crispy and delicious", 10.00, "Entree");
             MenuItem chickenParm = new MenuItem("Chicken Parmesan", "Fettuccine noodles with a robust tomato sauce", 11.99, "Entree");
@@ -21,33 +22,67 @@ namespace ClassThreeStudio
             menu.UpdateMenu(0, fettAlfredo);
             menu.UpdateMenu(0, tiramisu);
 
-            //Console.WriteLine("Would you like to add or remove menu items?\n 0 - add\n 1 - remove");
-            //int input = int.Parse(Console.ReadLine());
-
-            Console.WriteLine("Would you like to see the whole menu or one item?\n 0 - whole menu \n 1 - single item");
-            int userInput = int.Parse(Console.ReadLine());
-
-            if (userInput == 0)
+            //using a while loop to continue prompting the user until they choose to kill the program with ctrl+c
+            while (true)
             {
-                for (int i = 0; i < menu.MenuItems.Count; i++)
-                {
-                    Console.WriteLine($"********\n" +
-                        $"{menu.MenuItems[i].ToString()}\n" +
-                        $"********");
-                }
-            } else
-            {
-                Console.WriteLine($"Please select a menu item to view:");
-                for (int i = 0; i < menu.MenuItems.Count; i++)
-                {
-                    Console.WriteLine($"{i} - {menu.MenuItems[i].Name}");
-                }
-                int secondSelection = int.Parse(Console.ReadLine());
+                Console.WriteLine("\nWhat would you like to do?\n" +
+                    "0 - view menu\n" +
+                    "1 - view menu item\n" +
+                    "2 - add menu item\n" +
+                    "3 - remove menu item");
+                int input = int.Parse(Console.ReadLine());
 
-                Console.WriteLine($"********\n" +
-                    $"{menu.MenuItems[secondSelection].ToString()}\n" +
-                    $"********");
+                if (input == 0)
+                {
 
+                    for (int i = 0; i < menu.MenuItems.Count; i++)
+                    {
+                        Console.WriteLine($"\n********\n" +
+                            $"{menu.MenuItems[i].ToString()}\n" +
+                            $"********\n");
+
+                    } 
+                } if (input == 1){
+
+                    Console.WriteLine($"\nPlease select a menu item to view:");
+                    for (int i = 0; i < menu.MenuItems.Count; i++)
+                    {
+                        Console.WriteLine($"{i} - {menu.MenuItems[i].Name}");
+                    }
+                    int secondSelection = int.Parse(Console.ReadLine());
+
+                    Console.WriteLine($"\n********\n" +
+                        $"{menu.MenuItems[secondSelection].ToString()}\n" +
+                        $"********\n");
+
+                } if (input == 2)
+                {
+
+                    Console.WriteLine("\nPlease enter menu item name:");
+                    string nameInput = Console.ReadLine();
+                    Console.WriteLine("Please enter menu item description:");
+                    string descriptionInput = Console.ReadLine();
+                    Console.WriteLine("Please enter menu item price:");
+                    double priceInput = double.Parse(Console.ReadLine());
+                    Console.WriteLine("Please enter menu item menu category:");
+                    //could provide the options and have the user select
+                    string categoryInput = Console.ReadLine();
+
+
+                    //another option would be to create a new menuItem instance right away and use the setter
+
+                } if (input == 3)
+                {
+                    Console.WriteLine("\nPlease select an item to remove:");
+                    for (int i = 0; i < menu.MenuItems.Count; i++)
+                    {
+                        Console.WriteLine($"{i} - {menu.MenuItems[i].Name}");
+                    }
+                    int removeSelection = int.Parse(Console.ReadLine());
+
+                    menu.UpdateMenu(1, menu.MenuItems[removeSelection]);
+                }
+                
             }
 
         }
