@@ -9,7 +9,7 @@ namespace ClassThreeStudio
         public string Description { get; }
         public double Price { get; set; }
         public string Category { get; }
-        public bool NewItem { get; }
+        public string NewItem { get; }
         public System.DateTime DateUpdated { get; }
 
         //constructor for menu item
@@ -24,9 +24,9 @@ namespace ClassThreeStudio
         }
 
         //should this be static?
-        private bool IsNew()
+        private string IsNew()
         {
-            return true;
+            return ("New item!");
         }
 
         //should this be static?
@@ -37,7 +37,7 @@ namespace ClassThreeStudio
 
         public override string ToString()
         {
-            return ($"{Name} - ${Price}\n{Description}\n{Category}\n{NewItem}\n{DateUpdated}");
+            return ($"{Name} - ${Price}\n{Description}\n{Category}\n{NewItem}\nDate updated: {DateUpdated}");
         }
 
     }
