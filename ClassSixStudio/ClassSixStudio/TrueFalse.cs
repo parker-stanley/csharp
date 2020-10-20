@@ -4,14 +4,13 @@ namespace ClassSixStudio
 {
     public class TrueFalse : Question
     {
-        public string Text { get; set; }
-        public string Type { get; set; }
         public bool CorrectAnswer { get; set; }
 
-        public TrueFalse(string text, string type)
+        public TrueFalse(string text, string type) : base(text, type)
         {
             Text = text;
             Type = type;
+            //do these needs to be left in the constructor?
         }
 
         public override void Prompt()

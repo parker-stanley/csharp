@@ -6,18 +6,15 @@ namespace ClassSixStudio
     public class MultiChoice : Question
     {
         //should these be set in the parent class?
-        public string Text { get; set; }
-        public string Type { get; set; }
         List<string> answers = new List<string>(); //why is it prompting me to make my lists readonly?
         public int CorrectAnswer { get; set; }
         
 
-        public MultiChoice(string text, string type, List<string> answers, int correctAnswer)
+        public MultiChoice(string text, string type, List<string> answers, int correctAnswer) : base(text, type)
         {
-            Text = text;
-            Type = type;
             this.answers = answers;
             CorrectAnswer = correctAnswer;
+            //do i need text and type in here?
         }
 
         public override void Prompt()
