@@ -3,30 +3,42 @@ namespace ClassThreeStudio
 {
     public class MenuItem
     {
-        /*
-        My original design had the fields declared, then the constructor, then the getter and setters.
-        With the shorthand we don't need the fields declared.
-        With the shorthand in the constructor we use uppercase on the field name instead of lowercase.
-        With the shorthand the "this." is not needed in the constructor as well.
-        */
 
         //setting of getters and setters, this also creates private fields by using shorthand 
         public string Name { get; }
         public string Description { get; }
         public double Price { get; set; }
         public string Category { get; }
-        public bool newItem { get; }
-        public string DateUpdated { get; } //this could be refactored to actually get today's date
+        public string NewItem { get; }
+        public System.DateTime DateUpdated { get; }
 
         //constructor for menu item
-        public MenuItem(string name, string description, double price, string category, bool newItem, string dateUpdated)
+        public MenuItem(string name, string description, double price, string category)
         {
             Name = name;
             Description = description;
             Price = price;
             Category = category;
-            newItem = newItem;
-            DateUpdated = dateUpdated;
+            NewItem = this.IsNew();
+            DateUpdated = MenuItem.UpdateDate();
+        }
+
+        //should this be static?
+        private string IsNew()
+        {
+            //I want to compare the dateTime added to todays date and display the below text if it's been less than a week
+            return ("New item!");
+        }
+
+        //should this be static?
+        public static System.DateTime UpdateDate()
+        {
+            return DateTime.Now;
+        }
+
+        public override string ToString()
+        {
+            return ($"{Name} - ${Price}\n{Description}\n{Category}\n{NewItem}\nDate updated: {DateUpdated}");
         }
 
     }
