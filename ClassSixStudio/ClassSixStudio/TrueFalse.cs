@@ -6,34 +6,40 @@ namespace ClassSixStudio
     {
         public bool CorrectAnswer { get; set; }
 
-        public TrueFalse(string text, string type) : base(text, type)
+        public TrueFalse(string text, string type, bool correctAnswer) : base(text, type)
         {
-            Text = text;
-            Type = type;
-            //do these needs to be left in the constructor?
+            CorrectAnswer = correctAnswer;
         }
 
         public override void Prompt()
         {
             Console.WriteLine($"True or false. {Text}");
 
+        }
+
+        public override void GetAnswer()
+        {
             string userAnswer = Console.ReadLine().ToLower();
             bool userAnswerConverted;
 
             if (userAnswer == "true")
             {
                 userAnswerConverted = true;
-            } else
+            }
+            else
             {
                 userAnswerConverted = false;
             }
 
             if (userAnswerConverted == CorrectAnswer)
             {
-                Console.WriteLine("Correct!");
-            } else
+                Console.WriteLine("\nCorrect!\n");
+                this.CorrectlyAnswered = true;
+            }
+            else
             {
-                Console.WriteLine("Incorrect response.");
+                Console.WriteLine("\nIncorrect response.\n");
+                this.CorrectlyAnswered = false;
             }
         }
     }

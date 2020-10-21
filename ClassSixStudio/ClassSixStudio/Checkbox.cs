@@ -12,23 +12,47 @@ namespace ClassSixStudio
         {
             this.correctAnswers = correctAnswers;
             this.possibleAnswers = possibleAnswers;
-            //do i need text and type in here?
         }
 
         public override void Prompt()
         {
-            Console.WriteLine($"{Text}:\n");
+            Console.WriteLine($"{Text}:");
 
             int i = 0;
             foreach (string item in possibleAnswers)
             {
-                Console.WriteLine($"{i}. {item}");
+                Console.WriteLine($"{i+1}. {item}");
                 i++;
             }
+        }
 
-            Console.WriteLine("Select one or more of the above options:");
+        public override void GetAnswer()
+        {
+            Console.WriteLine("\nSelect one or more of the above options entering your selections separated by commas.");
 
-            //need code that takes the users input, assocaites number input to strings in list, handles lower case, and compares to correctAnswers
+            int userScore = 0;
+
+            string userInput = Console.ReadLine().ToLower();
+            string[] userInputs = userInput.Split(',');
+
+            foreach (string answer in userInputs)
+            {
+                if (correctAnswers.Contains(answer))
+                {
+                    userScore++;
+                }
+            }
+
+            if (userScore == correctAnswers.Count)
+            {
+                Console.WriteLine("\nCorrect!\n");
+                this.CorrectlyAnswered = true;
+            }
+            else
+            {
+                Console.WriteLine("\nIncorrect selections.\n");
+                this.CorrectlyAnswered = false;
+            }
         }
     }
 }

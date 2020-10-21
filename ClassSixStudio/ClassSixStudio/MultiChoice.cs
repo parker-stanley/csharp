@@ -5,7 +5,6 @@ namespace ClassSixStudio
 {
     public class MultiChoice : Question
     {
-        //should these be set in the parent class?
         List<string> answers = new List<string>(); //why is it prompting me to make my lists readonly?
         public int CorrectAnswer { get; set; }
         
@@ -14,38 +13,38 @@ namespace ClassSixStudio
         {
             this.answers = answers;
             CorrectAnswer = correctAnswer;
-            //do i need text and type in here?
         }
 
         public override void Prompt()
         {
-            Console.WriteLine($"{Text}:\n");
+            Console.WriteLine($"{Text}:");
 
             int i = 0;
             foreach (string item in answers)
             {
-                Console.WriteLine($"{i}. {answers[i]}\n");
+                Console.WriteLine($"{i+1}. {answers[i]}");
                 i++;
-                Console.WriteLine("Please select from the above options:");
             }
+        }
+
+        public override void GetAnswer()
+        {
+            Console.WriteLine("\nPlease select from the above options by indicating the number of your selection:");
 
             int userAnswer = int.Parse(Console.ReadLine());
 
             if (userAnswer == CorrectAnswer)
             {
-                Console.WriteLine("Correct!");
-            } else
+                Console.WriteLine("\nCorrect!\n");
+                this.CorrectlyAnswered = true;
+            }
+            else
             {
-                Console.WriteLine("Incorrect selection.");
+                Console.WriteLine("\nIncorrect selection.\n");
+                this.CorrectlyAnswered = false;
             }
             //could have created a while loop here that continued to prompt the user until userAnswer == correctAnswer
-
         }
 
-        public void CheckAnswer() //should this be it's own method?
-        {
-            //I could move the checking of the answer here
-            //that would require that i establish a "userAnswer field outside the above method
-        }
     }
 }
