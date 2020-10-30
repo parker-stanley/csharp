@@ -12,9 +12,7 @@ namespace SkillsTracker.Controllers
     {
 
         // GET: /<controller>/
-        [HttpGet]
-        [HttpPost]
-        [Route("/skills/")]
+        [HttpGet("/skills/")]
         public IActionResult Index()
         {
             string html = "<h1>Skills Tracker</h1>" +
@@ -27,41 +25,48 @@ namespace SkillsTracker.Controllers
             return Content(html, "text/html");
         }
 
-        // POST: /skills/form
-        [HttpGet]
-        [Route("/skills/form/")]
+        // GET: /skills/form
+        [HttpGet("/skills/form/")]
         public IActionResult Form()
         {
 
-                string input = "<form method='post' action='/skills/levels/'>'" +
-                    "<label>Date</label>\n" +
-                    "<input type='date' name='date'></input>\n" +
-                    "<label>Please select learning progress level for C#:</label>\n" +
+                string input = "<form method='post' action='/skills/progress/'>" +
+                    "<label>Date: </label>" +
+                    "<input type='date' name='date'/>" +
+                    "<br>" +
+                    "<label>Please select learning progress for C#: </label>" +
+                    "<br>" +
                     "<select name='skillLevelCsharp' id='skillLevelCsharp'>" +
-                    "<option value='high'>High</option>" +
-                    "<option value='medium'>Medium</option>" +
-                    "<option value='low'>Low</option>" +
+                    "<option value='high'>Master Coder</option>" +
+                    "<option value='medium'>Making Apps</option>" +
+                    "<option value='low'>Learning Basics</option>" +
                     "</select>" +
-                    "<label>Please select learning progress level for Javascript:</label>\n" +
+                    "<br>" +
+                    "<label>Please select learning progress for JavaScript: </label>" +
+                    "<br>" +
                     "<select name='skillLevelJavascript' id='skillLevelJavascript'>" +
-                    "<option value='high'>High</option>" +
-                    "<option value='medium'>Medium</option>" +
-                    "<option value='low'>Low</option>" +
+                    "<option value='high'>Master Coder</option>" +
+                    "<option value='medium'>Making Apps</option>" +
+                    "<option value='low'>Learning Basics</option>" +
                     "</select>" +
-                    "<label>Please select learning progress level for Python:</label>\n" +
+                    "<br>" +
+                    "<label>Please select learning progress for Python: </label>" +
+                    "<br>" +
                     "<select name='skillLevelPython' id='skillLevelPython'>" +
-                    "<option value='high'>High</option>" +
-                    "<option value='medium'>Medium</option>" +
-                    "<option value='low'>Low</option>" +
+                    "<option value='high'>Master Coder</option>" +
+                    "<option value='medium'>Making Apps</option>" +
+                    "<option value='low'>Learning Basics</option>" +
                     "</select>" +
+                    "<br>" +
                     "<button type='submit'>Submit</button>" +
                     "</form>";
                 return Content(input, "text/html");
       
         }
 
-        [HttpPost("/skills/levels/")]
-        public IActionResult FormResult(string date, string skillLevelCsharp, string skillLevelJavascript, string skillLevelPython)
+        // POST: /skills/progress
+        [HttpPost("/skills/progress/")]
+        public IActionResult SkillsProgress(string date, string skillLevelCsharp, string skillLevelJavascript, string skillLevelPython)
         {
             string html = "<h1>" + date + "</h1>" +
                 "<table>" +
@@ -70,7 +75,7 @@ namespace SkillsTracker.Controllers
                 "<td>" + skillLevelCsharp + "</td>" +
                 "</tr>" +
                 "<tr>" +
-                "<td>Javascript</td>" +
+                "<td>JavaScript</td>" +
                 "<td>" + skillLevelJavascript + "</td>" +
                 "</tr>" +
                 "<tr>" +
